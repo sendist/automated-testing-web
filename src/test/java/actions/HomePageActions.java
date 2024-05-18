@@ -14,7 +14,6 @@ public class HomePageActions {
         PageFactory.initElements(HelperClass.getDriver(),homePageLocators);
     }
 
-    //action to get tittle header page when successfully login
     public String getTitleHeaderPage() {
         return(homePageLocators.headerPageTitle.getText());
     }
@@ -31,8 +30,6 @@ public class HomePageActions {
         return(homePageLocators.logoutButton);
     }
 
-
-    //action to get tittle page when successfully login
     public String getTittlePage() {
         return(homePageLocators.homePageTitle.getText());
     }

@@ -1,7 +1,5 @@
 package stepdefinitions;
 
-
-import org.junit.BeforeClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -14,11 +12,6 @@ import utils.HelperClass;
  * I have added the code to take the screenshot of the failed scenario in @After Hook.
 */
 public class Hooks {
-	
-	 @BeforeClass
-	 public static void setup() {
-	        System.out.println("Ran the before");
-	 }
 	
 	@Before
     //hooks run before the first step of each scenario

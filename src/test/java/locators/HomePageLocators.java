@@ -4,19 +4,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HomePageLocators {
-    @FindBy(xpath = "//*[@id=\"header_container\"]/div[1]/div[2]/div")
+    @FindBy(className = "app_logo")
     public WebElement headerPageTitle;
 
-    @FindBy(xpath = "//*[@id=\"header_container\"]/div[2]/span")
+    @FindBy(className = "title")
     public WebElement homePageTitle;
 
-    @FindBy(xpath = "//*[@id=\"header_container\"]/div[1]/div[2]/div")
+    @FindBy(className = "app_logo")
     public WebElement Dashboard;
 
-    @FindBy(xpath = "//*[@id=\"react-burger-menu-btn\"]")
+    @FindBy(id = "react-burger-menu-btn")
     public WebElement sideBarButton;
 
-    @FindBy(xpath = "//*[@id=\"logout_sidebar_link\"]")
+    @FindBy(id = "logout_sidebar_link")
     public WebElement logoutButton;
-
 }
