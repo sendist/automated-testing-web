@@ -1,4 +1,4 @@
-package com.webautomation;
+package com.webautomation.stepdefinition;
 
 import io.cucumber.java.After;
 import io.cucumber.java.en.*;
