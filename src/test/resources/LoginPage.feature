@@ -5,8 +5,8 @@ Feature: Login to Swag Labs
 
   @ValidAccount @TC01
   Scenario: Berhasil melakukan login dengan mengisi credential valid
-    When User enters username as "standard_user" and password as "rahasia123"
-    Then User should be logged in successfully
+    When User enters username as "standard_user" and password as "secret_sauce"
+    Then User should be able to login successfully and navigated to dashboard page
 
   @PasswordEmpty @TC02
   Scenario: Login gagal diakibatkan password tidak terisi
@@ -40,10 +40,3 @@ Feature: Login to Swag Labs
     Examples:
       | username      | password     | errorMessage                   | test case        |
       | standar_user  | admin123     | Username and password do not match any user in this service ! | invalid password |
-
-  @Logout @TC07
-  Scenario: User Logout
-    Given User was on dashboard page
-    When User click hamburger menu
-    And User Click Logout
-    Then User navigate to login page

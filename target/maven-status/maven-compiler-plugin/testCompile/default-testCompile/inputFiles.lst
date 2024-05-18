@@ -1,2 +1,9 @@
-E:\Polban\Semester 6\Software Testing\Selenium + Cucumber SwagLabs\automated-testing-web\src\test\java\com\webautomation\stepdefinition\StepDefinitions.java
-E:\Polban\Semester 6\Software Testing\Selenium + Cucumber SwagLabs\automated-testing-web\src\test\java\com\webautomation\runner\RunCucumberTest.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\stepdefinitions\LoginSteps.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\actions\LoginPageActions.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\locators\HomePageLocators.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\stepdefinitions\Hooks.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\utils\HelperClass.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\actions\HomePageActions.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\locators\LoginPageLocators.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\runner\CucumberRunnerTest.java
+D:\New folder\Semester 6\PPL\Praktik\webautomation\src\test\java\stepdefinitions\LogoutSteps.java
