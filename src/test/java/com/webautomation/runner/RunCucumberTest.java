@@ -1,4 +1,4 @@
-package com.webautomation;
+package com.webautomation.runner;
 
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;

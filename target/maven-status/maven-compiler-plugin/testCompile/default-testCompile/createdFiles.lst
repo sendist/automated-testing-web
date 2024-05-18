@@ -1,2 +1,2 @@
-com\webautomation\RunCucumberTest.class
-com\webautomation\StepDefinitions.class
+com\webautomation\runner\RunCucumberTest.class
+com\webautomation\stepdefinition\StepDefinitions.class
