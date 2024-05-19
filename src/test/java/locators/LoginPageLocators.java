@@ -14,8 +14,4 @@ public class LoginPageLocators {
 
     @FindBy(className = "error-message-container")
     public  WebElement errorMessage;
-
-    @FindBy(className = "login_logo")
-    public WebElement logoSwaLabs;
-
 }

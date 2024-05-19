@@ -12,5 +12,4 @@ import io.cucumber.junit.CucumberOptions;
                 "junit:target/JUnitReports/report.xml",
                 "pretty", })
 public class CucumberRunnerTest {
-
 }

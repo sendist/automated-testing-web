@@ -39,15 +39,4 @@ public class LogoutSteps {
 		Assert.assertEquals(loginPageUrl, currentUrl);
 		Thread.sleep(2000);
 	}
-
-
-
-
-
-
-
-
-
-
-
 }

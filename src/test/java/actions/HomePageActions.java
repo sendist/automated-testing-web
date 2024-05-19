@@ -14,10 +14,6 @@ public class HomePageActions {
         PageFactory.initElements(HelperClass.getDriver(),homePageLocators);
     }
 
-    public String getTitleHeaderPage() {
-        return(homePageLocators.headerPageTitle.getText());
-    }
-
     public WebElement getDashboard() {
         return(homePageLocators.Dashboard);
     }
@@ -29,10 +25,5 @@ public class HomePageActions {
     public WebElement getLogoutButton() {
         return(homePageLocators.logoutButton);
     }
-
-    public String getTittlePage() {
-        return(homePageLocators.homePageTitle.getText());
-    }
-
 
 }
