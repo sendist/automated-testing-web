@@ -15,7 +15,6 @@ public class LogoutSteps {
 
 	String loginPageUrl = "https://www.saucedemo.com/";
 
-
 	@Given("User login successfully and navigated to dashboard page")
 	public void user_login_successfully_and_navigated_to_dashboard_page() {
 		// valid login and navigated to dashboard page

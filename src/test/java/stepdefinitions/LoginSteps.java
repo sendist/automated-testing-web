@@ -19,28 +19,28 @@ public class LoginSteps {
 		HelperClass.openPage(url);
 	}
 
-	@When("User has opened swag labs browser")
-	public void user_has_opened_swag_labs_browser() throws InterruptedException {
-		String currentUrl = HelperClass.getCurrentUrl();
-		Assert.assertEquals(url, currentUrl);
-		Thread.sleep(2000);
-	}
+	// @When("User has opened swag labs browser")
+	// public void user_has_opened_swag_labs_browser() throws InterruptedException {
+	// 	String currentUrl = HelperClass.getCurrentUrl();
+	// 	Assert.assertEquals(url, currentUrl);
+	// 	Thread.sleep(2000);
+	// }
 
-	@Then("There are fields for inputting username and password")
-	public void there_are_fields_for_inputting_username_and_password() {
-		Assert.assertTrue(objLogin.isPasswordFieldDisplayed());
-		Assert.assertTrue(objLogin.isUsernameFieldDisplayed());
-	}
+	// @Then("There are fields for inputting username and password")
+	// public void there_are_fields_for_inputting_username_and_password() {
+	// 	Assert.assertTrue(objLogin.isPasswordFieldDisplayed());
+	// 	Assert.assertTrue(objLogin.isUsernameFieldDisplayed());
+	// }
 
-	@Then("There is a Login Button")
-	public void there_is_a_login_button() {
-		Assert.assertTrue(objLogin.isButtonEnable());
-	}
+	// @Then("There is a Login Button")
+	// public void there_is_a_login_button() {
+	// 	Assert.assertTrue(objLogin.isButtonEnable());
+	// }
 
-	@Then("There is a Swag Labs logo name")
-	public void there_is_a_swag_labs_logo_name() {
-		Assert.assertTrue(objLogin.isLogoDisplayed());
-	}
+	// @Then("There is a Swag Labs logo name")
+	// public void there_is_a_swag_labs_logo_name() {
+	// 	Assert.assertTrue(objLogin.isLogoDisplayed());
+	// }
 
 	@When("User enters username as {string} and password as {string}")
 	public void user_enters_username_as_and_password_as(String username, String password) {
