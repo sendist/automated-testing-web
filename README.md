@@ -31,6 +31,31 @@ cd automated-testing-web
 ```
 - Buka Code Editor, Misalnya VS code
 
+## Project folder structure
+
+```bash
+/src
+|-- /test
+|   |-- /java
+|   |   |-- /actions
+|   |   |   |-- HomePageActions.java
+|   |   |   |-- LoginPageActions.java
+|   |   |-- /locators
+|   |   |   |-- HomePageLocators.java
+|   |   |   |-- LoginPageLocators.java
+|   |   |-- /runner
+|   |   |   |-- CucumberRunnerTest.java
+|   |   |-- /stepdefinitions
+|   |   |   |-- Hooks.java
+|   |   |   |-- LoginSteps.java
+|   |   |   |-- LogoutSteps.java
+|   |   |-- /utils
+|   |   |   |-- HelperClass.java
+|   |-- /resources
+|   |   |-- LoginPage.feature
+|   |   |-- LogoutPage.feature
+```
+
 ## How to Run Execution Testing
 
 ### Terminal
@@ -46,4 +71,4 @@ Kami kelompok B5 dari kelas 3B-D4 Teknik Informatika Politeknik Negeri Bandung
 
 ## Reference
 Daftar resource
-- [dummyapi.io](https://dummyapi.io/)
+- [Swag Labs](https://www.saucedemo.com)
