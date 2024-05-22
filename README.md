@@ -63,6 +63,15 @@ Proses menjalankan eksekusi testing melalui terminal dengan menjalankan kode ber
 ```bash
   mvn test 
 ```
+
+## How to see test report
+Setelah melakukan test execution, buka file html berikut pada browser:
+```bash
+/target
+|-- /HtmlReports
+|   | -- report.html
+```
+
 ## Authors
 Kami kelompok B5 dari kelas 3B-D4 Teknik Informatika Politeknik Negeri Bandung
 - Muhammad Daffa Raihandika (211524050) (username github: [daffaraihandika](https://github.com/daffaraihandika))
